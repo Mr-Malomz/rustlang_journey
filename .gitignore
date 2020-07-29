@@ -1,3 +1,4 @@
 /src/hello_world/target/
 /src/guessing_game/target/
+/src/common_prog_concept/target/
 **/*.rs.bk
