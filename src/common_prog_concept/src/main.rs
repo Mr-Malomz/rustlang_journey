@@ -17,11 +17,11 @@ fn main() {
 
     //destructuring tuples
     let (o, p, q) = tup2;
-    println!("The values in this tupple are {}, {} & {}", o , p, q);
+    println!("The values in this tupple are {}, {} & {}", o, p, q);
 
     //Accessing tuple using the period notation and corresponding index
     let tuple_index = tup2.1;
-    println!("{}",tuple_index);
+    println!("{}", tuple_index);
 
     //ARRAYS IN RUST
     let array1 = [1, 2, 3, 4];
@@ -29,5 +29,21 @@ fn main() {
     //accessing array element
     let _second = array1[1];
 
-    
+    //condition
+    // if 1 > array1.len() {
+    //     println!("greater than 1")
+    // }
+
+    //loop (WHILE)
+    let mut numb = 3;
+    // while numb != array1[3] {
+    //     println!("Still passing number {}", numb);
+
+    //     numb = numb - 1;
+    // }
+
+    //loop (forIn)
+    for item in array1.iter() {
+        println!("the value is: {}", item)
+    }
 }
