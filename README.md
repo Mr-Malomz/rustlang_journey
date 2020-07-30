@@ -31,4 +31,6 @@ Compound types in rust
 * Array: is another wy for storing colection of multiple values. All element in array in rust must have the same type, fixed length once declared.
 
 #### Functions
+block of reusable code
 #### Control Flow
+checking for conditions before executing a code
